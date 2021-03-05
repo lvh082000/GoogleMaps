@@ -11,8 +11,12 @@ export default () => (
        provider={PROVIDER_GOOGLE} // remove if not using Google Maps
        style={styles.map}
        region={{
-         latitude: 37.78825,
-         longitude: -122.4324,
+        //  tọa độ và kinh độ ở đây là lấy ở nhà Lê Văn Hiếu
+        //  tọa độ
+         latitude: 18.9535021,
+        //  kinh độ
+         longitude: 105.5242540,
+        //  độ phóng của tọa độ và kinh độ
          latitudeDelta: 0.015,
          longitudeDelta: 0.0121,
        }}
